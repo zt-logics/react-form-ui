@@ -1,0 +1,99 @@
+/* Filename - App.css */
+/* It containds the Form and Page Styling*/
+
+body {
+    /* background: #f3f3f3; */
+    background: linear-gradient(7deg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+}
+.App {
+    /* background-color: #fff; */
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00000033;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    /* width: 100%; */
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px auto;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    color: #000000;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    display: block;
+    width: 100%;
+    /* margin-bottom: 15px; */
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: 10%;
+}
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #000000;
+    width: 40%;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #000000cf;
+}
+textarea {
+    resize: none;
+    width: 98%;
+    min-height: 100px;
+    max-height: 150px;
+}
+#about {
+    padding: 10px;
+}
+
+#male, #female, #other{
+    accent-color: #000000;
+}
+
+#english, #maths, #computer{
+    accent-color: #000000;
+}
